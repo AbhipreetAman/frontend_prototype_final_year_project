@@ -3,11 +3,19 @@ body {
     background-color: #f4f4f4;
 }
 
+.text_color{
+    color:white;
+}
+
+#imageInput, #coordinates{
+    background-color:black;
+}
+
 .container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #59f370;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -19,7 +27,7 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
 }
 
 input, button {
